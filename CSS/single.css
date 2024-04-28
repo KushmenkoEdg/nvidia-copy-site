@@ -1,0 +1,10 @@
+.single{
+    width: 2240px;
+    height: 600px;
+    color:#76B900;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:120px;
+}

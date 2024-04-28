@@ -1,0 +1,58 @@
+.hisrory {
+    width: 2240px;
+    height: 1200px;
+    margin-bottom: 50px;
+}
+.history-section-container {
+    width: 2240px;
+    height: 1000px;
+}
+.history-section-container-title {
+    width: 1000px;
+    height: 100px;
+    font-size: 50px;
+    color:#76B900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.history-section-container-info {
+    width: 2240px;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+}
+.history-section-container-info-block {
+    width: 2240px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.h2-subtitle {
+    width: 50px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode:vertical-rl;
+    background-color: #76B900;
+}
+
+.subtitle-p {
+    width: 22400px;
+    height: 300px;
+    font-weight: 900;
+    font-size: 24px;
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+}
+.subtitle-p-2 {
+    font-size: 24px;
+}

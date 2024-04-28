@@ -1,0 +1,91 @@
+.contact {
+    width: 2240px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.contact-container {
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+.contact-container-info {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #76B900;
+}
+.contact-container-info  h1{
+    width: 350px;
+    height: 50px;
+    font-size:30px;
+    font-weight: 900;
+    color:white; 
+}
+.contact-container-info-gmail {
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    color:white;
+    font-weight: 900;
+}
+
+.contact-container-info-address {
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    color:white;
+    font-weight: 900;
+}
+.contact-container-info-gmail:hover,.contact-container-info-address:hover{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-container-info-button{
+    width: 350px;
+    height: 50px;
+}
+.contact-container-info-button button{
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.contact-container-info-button button:hover{
+    background-color: #c0f4af;
+    text-decoration: underline;
+    color:white;
+    transition: 0.5s;
+}
+.contact-container-map {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+    background-color: #76B900;
+}
+.contact-container-map-info {
+    width: 600px;
+    height: 50px;
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+}

@@ -1,0 +1,100 @@
+
+.main-home-part {
+    width: 2240px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-home-part-container {
+    width: 2100px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-home-part-container-img-part {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-home-container-part-home-img img {
+    width: 1000px;
+    height: 350px;
+}
+.main-home-container-part-other-images {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.main-home-container-part-other-images img{
+    width: 300px;
+    height: 200px;
+}
+.main-home-part-container-info-part {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.main-home-part-container-info-part-title {
+    font-size: 30px;
+    width: 500px;
+    height: 70px;
+}
+
+.main-home-part-container-info-part-title:hover{
+    color:#76B900;
+    transition: 0.5s;
+}
+.main-home-part-container-info-part-p {
+    width: 850px;
+    height: 200px;
+    font-size: 25px;
+    margin-top:20px;
+    color:#000000;
+    font-weight: 900;
+}
+
+.main-home-part-container-info-part-p:hover{
+    color:#76B900;
+    transition: 0.5s;
+
+}
+.main-home-part-container-buttons {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.main-home-part-container-button-clickme button,.main-home-part-container-button-learn-more button{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    color:white;
+    border-radius: 5px;
+    border:none;       
+    cursor: pointer; 
+}
+.main-home-part-container-button-learn-more button,.main-home-part-container-button-clickme button{
+    background-color: #000000;
+    color:#76B900;
+}
+.main-home-part-container-button-learn-more button:hover,.main-home-part-container-button-clickme button:hover{
+    background-color:#2f412e ;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.main-home-part-container-button-learn-more a,.main-home-part-container-button-clickme a{
+    text-decoration: none;
+    color:#76B900;
+}
